@@ -34,21 +34,21 @@ header > svg#expand-detoggle {
     height: 100%;
     margin: 0;
     margin-left: 2%;
-    transition: 2s ease-in-out;
+    transition: .7s ease-in-out;
 }
 
 div#expand {
-    display: none;
+    display: block;
     z-index: +9999;
     background-color: #f1faee;
     position: absolute;
+    right: 100%;
     top: 100%;
-    width: 85%;
+    width: 100%;
     float: left;
-    height: auto;
-    -webkit-box-shadow: 11px 9px 22px -2px #000000; 
-    box-shadow: 11px 9px 22px -2px #000000;
-    transition: 2s ease-in-out;
+    -webkit-box-shadow: -3px 11px 15px -7px #000000; 
+    box-shadow: -3px 11px 15px -7px #000000;
+    transition: .7s ease-in-out;
 }
 
 
@@ -56,6 +56,7 @@ div#expand > p {
     font-family: 'Long Cang', cursive;
     font-weight: 300;
     margin-left: 5%;
+    text-align: left;
     font-size: 7vw;
     color: #457B9D;
 }

@@ -2,12 +2,12 @@
 
 
 
-
+// Opens header menu
 
 function expandMenu() {
 
 
-            document.getElementById('expand').style.display = "block";
+            document.getElementById('expand').style.right = "0";
 
             document.getElementById('expand-toggle').style.display = "none";
 
@@ -19,11 +19,11 @@ function expandMenu() {
 
 
 
-
+// Closes header menu
 
 function retractMenu() {
 
-    document.getElementById('expand').style.display = "none";
+    document.getElementById('expand').style.right = "100%";
 
     document.getElementById('expand-detoggle').style.display = "none";
 
