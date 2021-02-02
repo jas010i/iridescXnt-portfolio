@@ -4,8 +4,10 @@
 div.fact-sheet {
     display: block;
     position: absolute;
-    top: 15%;
+    padding-top: 25%;
+    padding-bottom: 5%;
     width: 100%;
+    background-color: #f1faee;
 }
 
 
