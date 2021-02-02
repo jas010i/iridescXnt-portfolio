@@ -7,7 +7,7 @@
 function expandMenu() {
 
 
-            document.getElementById('expand').style.right = "0";
+            document.getElementById('expand').style.right = "25%";
 
             document.getElementById('expand-toggle').style.display = "none";
 

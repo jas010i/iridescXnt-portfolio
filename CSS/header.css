@@ -26,6 +26,7 @@ header > svg#expand-toggle {
     transition: 2s ease-in-out;
 }
 
+
 header > svg#expand-detoggle {
     display: none;
     position: absolute;
@@ -37,6 +38,19 @@ header > svg#expand-detoggle {
     transition: .7s ease-in-out;
 }
 
+
+header > img#pfp {
+    border-radius: 360px;
+    width: 10%;
+    height: 100%;
+    margin: 0;
+    margin-top: 2%;
+    margin-right: 2%;
+    float: right;
+    transition: 2s ease-in-out;
+}
+
+
 div#expand {
     display: block;
     z-index: +9999;
@@ -46,7 +60,7 @@ div#expand {
     height: 1200px;
     overflow-y: hidden;
     top: 100%;
-    width: 100%;
+    width: 75%;
     float: left;
     -webkit-box-shadow: -3px 11px 15px -7px #000000; 
     box-shadow: -3px 11px 15px -7px #000000;
@@ -55,12 +69,20 @@ div#expand {
 
 
 div#expand > p {
-    font-family: 'Long Cang', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 300;
-    margin-left: 5%;
-    text-align: left;
+    margin-right: 10%;
+    margin-bottom: 2%;
+    text-align: right;
     font-size: 7vw;
     color: #ffffff;
+}
+
+
+div#expand > hr {
+    color:#636a94;
+    width: 80%;
+    margin-top: 0;
 }
 
 
@@ -69,6 +91,7 @@ header > img {
     display: inline-block;
     margin-left: 37.5%;
 }
+
 
 .show {
     display: block;
