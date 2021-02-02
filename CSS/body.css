@@ -3,7 +3,7 @@
 
 
 div.fact-sheet {
-    display: block;
+    display: none;
     position: absolute;
     padding-top: 25%;
     padding-bottom: 5%;
