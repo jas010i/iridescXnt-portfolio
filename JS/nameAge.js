@@ -1,10 +1,17 @@
 
 
 
-// source: http://jsfiddle.net/c0rxkhyz/1/
+/* 
+
+    source: http://jsfiddle.net/c0rxkhyz/1/
+
+    Some modifications made to original source code,
+    but majority of work belongs to google
+
+*/
 
 
-var startDateTime = new Date(1996,5,11,0,0,0,0); // YYYY (M-1) D H m s (start time and date from DB)
+var startDateTime = new Date(1996,5,11,0,0,0,0); // YYYY (M-1) D H m s (start time)
 var startStamp = startDateTime.getTime();
 
 var newDate = new Date();
@@ -24,8 +31,10 @@ function updateClock() {
     var m = Math.floor(diff/(60));
     diff = diff-(m*60);
     var s = diff;
+
+    var round = Math.floor(d / 365); // converts total days to year(s)
     
-    document.getElementById("time-elapsed").innerHTML =  d+" day(s), "+h+" hour(s), "+m+" minute(s), "+s+" second(s) old.";
+    document.getElementById("time-elapsed").innerHTML =  d+" day(s), "+h+" hour(s), "+m+" minute(s), "+s+" second(s) old, or " + round + " years old;";
 }
 
 setInterval(updateClock, 1000);

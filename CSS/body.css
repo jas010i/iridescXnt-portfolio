@@ -1,8 +1,62 @@
 
 
 
+div.fact-sheet {
+    display: block;
+    position: absolute;
+    top: 15%;
+    width: 100%;
+}
 
 
 div.fact-sheet > img {
-    width: 25%;
+    width: 30%;
+    margin-left: 35%;
+    border-radius: 360px;
+    border: 5px solid #495867;
+    -webkit-box-shadow: inset 0px 0px 43px 6px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 43px 6px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 43px 6px rgba(0,0,0,0.75);
+}
+
+
+h1#fact-sheet-id {
+    width: 15%;
+    text-align: right;
+    font-weight: bold;
+    float: left;
+    font-size: 5.5vw;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+h1#fact-sheet-id-1 {
+    width: 15%;
+    text-align: right;
+    margin-bottom: 0;
+    font-weight: bold;
+    float: left;
+    font-size: 5.5vw;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+h1#fact-sheet-id-2 {
+    float: left;
+    width: 80%;
+    margin-bottom: 0;
+    font-weight: 300;
+    margin-left: 2%;
+    font-size: 5.5vw;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+h1#time-elapsed {
+    float: left;
+    width: 80%;
+    font-weight: 300;
+    margin-left: 2%;
+    font-size: 5.5vw;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
