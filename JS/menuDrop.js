@@ -30,11 +30,14 @@ function retractMenu() {
 }
 
 
+
 // on click shows information (static v dynamic)
 
 function arrDown() {
 
-    document.getElementById('static-dynamic-info').style.display = "block";
+    document.getElementById('static-dynamic-info').style.maxHeight = "100%";
+
+    document.getElementById('static-dynamic-info').style.overflow = "clip";
 
     document.getElementById('arr-down').style.display = "none";
 
@@ -47,11 +50,12 @@ function arrDown() {
 
 function arrUp() {
 
-    document.getElementById('static-dynamic-info').style.display = "none";
+    document.getElementById('static-dynamic-info').style.maxHeight = "0%";
+
+    document.getElementById('static-dynamic-info').style.overflow = "hidden";
 
     document.getElementById('arr-down').style.display = "block";
 
     document.getElementById('arr-up').style.display = "none";
-
 
 }
