@@ -5,7 +5,7 @@ html {
 
 
 div.fact-sheet {
-    display: none;
+    display: block;
     position: absolute;
     padding-top: 25%;
     padding-bottom: 5%;
