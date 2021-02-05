@@ -1,0 +1,29 @@
+
+
+
+
+
+
+#myXP {
+    font-size: 9vw;
+    position: absolute;
+    top: 0;
+    color: rgb(209, 209, 209);
+    z-index: +1;
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+    margin-top: 0;
+}
+
+
+div.fact-sheet > img {
+    z-index: +2;
+    width: 30%;
+    margin-left: 35%;
+    border-radius: 360px;
+    border: 3px solid #cfdbcb;
+    -webkit-box-shadow: 0px 0px 43px -15px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 43px -15px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 43px -15px rgba(0,0,0,0.75);
+}
