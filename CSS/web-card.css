@@ -20,9 +20,10 @@ div#web-price-card {
 #unsure-button {
     display: block;
     width: 100%;
+    background-color: #1D3557;
     margin: 0 0 0 0;
     position: absolute;
-    top: 12%;
+    top: 0;
     text-align: left;
 }
 
@@ -44,7 +45,8 @@ div#web-price-card {
 #drop-button {
     display: block;
     width: 100%;
-    margin: 5% 0 0 0;
+    padding: 0 0 10% 0;
+    margin: 25% 0 0 0;
     font-family: 'Source Code Pro', monospace;
     font-size: 5vw;
     font-weight: 600;
