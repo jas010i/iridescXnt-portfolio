@@ -63,7 +63,7 @@ div#web-price-card {
     max-height: 0%;
     overflow: hidden;
     position: absolute;
-    top: 25%;
+    top: 30%;
     transition: 2s;
     z-index: +5;
 }
