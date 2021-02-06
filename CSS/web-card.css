@@ -5,6 +5,7 @@ div.website-pricing {
     position: absolute;
     top: 30%;
     width: 100%;
+    margin: 15% 0 0 0;
 }
 
 
@@ -45,7 +46,7 @@ div#web-price-card {
 #drop-button {
     display: block;
     width: 100%;
-    padding: 0 0 10% 0;
+    padding: 0 0 2% 0;
     margin: 25% 0 0 0;
     font-family: 'Source Code Pro', monospace;
     font-size: 5vw;
