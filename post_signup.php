@@ -5,8 +5,21 @@
     
 
 
+
+
+    </head>
+
+    <body>
+
+
+
     <?php
 
+$fname = $_POST['fname'];
+$lname = $_POST['lname'];
+$email = $_POST['email'];
+$domain = $_POST['domain'];
+$level = $_POST['level'];
 
 
     $mysqli = new mysqli("localhost", "iridescXnt343_auth_user", "$6927=Jas010i.s03107@%", "client-form");
@@ -16,9 +29,16 @@
     }
     
 
+
+    $fname = $_POST['fname'];
+    $lname = $_POST['lname'];
+    $email = $_POST['email'];
+    $domain = $_POST['domain'];
+    $level = $_POST['level'];
+
+
     $sql = "INSERT INTO client (firstName, lastName, email, webDomain, webLevel) 
-              VALUES 
-              ('$_POST[fname]', '$_POST[lname]', '$_POST[email]', '$_POST[domain]', '$_POST[level]')";
+              VALUES ('$fname', '$lname', '$email', '$domain', '$level')";
         if($mysqli->query($sql) === true){
           echo "Thank you for your submission.";
         } else{
@@ -31,7 +51,9 @@
     ?>
 
 
-    </head>
+
+
+    </body>
 
 
     </html>

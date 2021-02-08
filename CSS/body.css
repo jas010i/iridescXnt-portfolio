@@ -8,7 +8,6 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100;
-    background-color: #e63946;
 }
 
 
@@ -108,7 +107,7 @@ input:focus {
     font-size: 5vw;
 }
 
-form > div > p {
+form > p {
     margin: 2% 0 2% 2%;
 }
 

@@ -15,7 +15,6 @@
                                 <link rel="stylesheet" href="CSS/header.css">
                                 <link rel="stylesheet" href="CSS/web-card.css">
                                 <link rel="stylesheet" href="CSS/body.css">
-
                                 <link rel="stylesheet" href="CSS/footer.css">
                                 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
@@ -37,7 +36,7 @@
 
 </head>
 
-<body id="body-shadow">
+<body>
 
 
 <header data-aos="fade-down">
@@ -232,14 +231,14 @@
     
 
     
-                    <input type="text" id="fname" placeholder="First Name" required>
-                    <input type="text" id="lname" placeholder="Last Name" required>
-                    <input type="email" id="email" placeholder="Email" required>
+                    <input name="fname" type="text" id="fname" placeholder="First Name" required>
+                    <input name="lname" type="text" id="lname" placeholder="Last Name" required>
+                    <input name="email" type="email" id="email" placeholder="Email" required>
             
 
             
                     <p>Do you currently own a web domain?</p>
-                    <select id="domain" required>
+                    <select name="domain" id="domain" required>
                         <option value="null"></option>
                         <option value="yes">Yes</option>
                         <option value="no">No</option>
@@ -251,7 +250,7 @@
 
                     <p>What level were you interested in?</p>
 
-                    <select id="level" required>
+                    <select name="level" id="level" required>
                         <option value="null"></option>
                         <option value="1">Level 1</option>
                         <option value="2">Level 2</option>
