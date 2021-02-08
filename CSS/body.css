@@ -91,16 +91,17 @@ fieldset {
 
 input {
     width: 80%;
-    margin: 5% 0 0 5%;
+    margin: 5% 0 0 2%;
     border: none;
     border-bottom: 1px solid #1D3557;
+    font-size: 5vw;
     transition: .4s;
 }
 
 input:focus {
     outline: none;
     border-bottom: 1px solid #e63946;
-    transform: scale(1.05);
+    transform: translateX(10px);
 }
 
 fieldset > div > p {
