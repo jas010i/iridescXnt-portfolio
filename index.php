@@ -10,6 +10,7 @@
 
 
 
+
                             <!--CSS-->
                                 <link rel="stylesheet" href="CSS/header.css">
                                 <link rel="stylesheet" href="CSS/web-card.css">
@@ -226,7 +227,7 @@
 
 
 
-        <fieldset>
+        <form action="post_signup.php" method="POST">
 
             <legend>Ready to begin?</legend>
 
@@ -238,11 +239,11 @@
 
                 <div>
                     <p>Do you currently own a web domain?</p>
-                    <input type="radio" id="domain-yes" name="web-domain" value="yes">
-                        <label for="web-domain">Yes</label>
-
-                    <input type="radio" id="domain-no" name="web-domain" value="no">
-                        <label for="web-domain">No</label>
+                    <select id="domain" required>
+                        <option value="null"></option>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
                 </div>
 
 
@@ -250,23 +251,19 @@
 
                     <p>What level were you interested in?</p>
 
-                    <input type="radio" id="level1" name="web-level" value="1">
-                        <label for="web-level">Level 1</label>
-
-                    <input type="radio" id="level2" name="web-level" value="2">
-                        <label for="web-level">Level 2</label>
-
-                    <input type="radio" id="level3" name="web-level" value="3">
-                        <label for="web-level">Level 3</label>
-
-                    <input style="margin-bottom: 5%;" type="radio" id="level4" name="web-level" value="4">
-                        <label style="margin-bottom: 5%;" for="web-level">Level 4</label>
+                    <select id="level" required>
+                        <option value="null"></option>
+                        <option value="1">Level 1</option>
+                        <option value="2">Level 2</option>
+                        <option value="3">Level 3</option>
+                        <option value="4">Level 4</option>
+                    </select>
                 </div>
 
 
 
 
-        </fieldset>
+        </form>
 
 
 

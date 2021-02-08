@@ -79,7 +79,7 @@ h1#time-elapsed {
 /************************** fieldset *******************/
 
 
-fieldset {
+form {
     display: block;
     width: 95%;
     bottom: 0;
@@ -98,6 +98,8 @@ input {
     transition: .4s;
 }
 
+
+
 input:focus {
     outline: none;
     border-bottom: 1px solid #e63946;
@@ -105,13 +107,12 @@ input:focus {
     font-size: 5vw;
 }
 
-fieldset > div > p {
+form > div > p {
     margin: 2% 0 2% 2%;
 }
 
-#domain-no, #domain-yes, #level1, #level2,
-#level3, #level4 {
-            width: 10%;
+#domain, #level {
+            width: 25%;
             margin: 0 0 0 2%;
         }
 
