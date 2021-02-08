@@ -81,15 +81,20 @@ h1#time-elapsed {
 
 fieldset {
     display: block;
+    width: 90%;
     bottom: 0;
+    padding: 0;
+    font-size: 6vw;
+    margin: 5% 0 10% 5%;
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
 input {
     width: 80%;
-    margin: 5% 0 0 2%;
+    margin: 5% 0 0 5%;
     border: none;
-    border-bottom: 1px solid #1D3557;;
+    border-bottom: 1px solid #1D3557;
+    -webkit-border-before-bottom: 1px solid #1D3557;
     transition: .4s;
 }
 
@@ -97,6 +102,10 @@ input:focus {
     outline: none;
     border-bottom: 1px solid #e63946;
     transform: scale(1.05);
+}
+
+fieldset > div > p {
+    margin: 2% 0 2% 2%;
 }
 
 #domain-no, #domain-yes, #level1, #level2,
