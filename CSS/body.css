@@ -110,7 +110,7 @@ fieldset > div > p {
 #domain-no, #domain-yes, #level1, #level2,
 #level3, #level4 {
             width: 10%;
-            margin: 0;
+            margin: 0 0 3% 0;
         }
 
 label {
