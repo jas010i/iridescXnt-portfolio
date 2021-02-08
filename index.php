@@ -229,25 +229,25 @@
 
         <form action="post_signup.php" method="POST">
 
-            <legend>Ready to begin?</legend>
+    
 
-                <div>
+    
                     <input type="text" id="fname" placeholder="First Name" required>
                     <input type="text" id="lname" placeholder="Last Name" required>
                     <input type="email" id="email" placeholder="Email" required>
-                </div>
+            
 
-                <div>
+            
                     <p>Do you currently own a web domain?</p>
                     <select id="domain" required>
                         <option value="null"></option>
                         <option value="yes">Yes</option>
                         <option value="no">No</option>
                     </select>
-                </div>
+            
 
 
-                <div>
+        
 
                     <p>What level were you interested in?</p>
 
@@ -258,8 +258,8 @@
                         <option value="3">Level 3</option>
                         <option value="4">Level 4</option>
                     </select>
-                </div>
 
+                <input type="submit" value="submit">
 
 
 
