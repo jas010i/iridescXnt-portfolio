@@ -93,7 +93,7 @@ input {
     width: 80%;
     margin: 5% 0 0 2%;
     border: none;
-    border-bottom: 1px solid #1D3557;
+    border-bottom: 2px solid #1D3557;
     font-size: 5vw;
     transition: .4s;
 }
@@ -102,6 +102,7 @@ input:focus {
     outline: none;
     border-bottom: 1px solid #e63946;
     transform: translateX(10px);
+    font-size: 5vw;
 }
 
 fieldset > div > p {
