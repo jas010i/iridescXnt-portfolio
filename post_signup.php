@@ -13,7 +13,7 @@
 
 
 
-    <?php
+<?php
 
 $fname = $_POST['fname'];
 $lname = $_POST['lname'];
@@ -48,7 +48,7 @@ $level = $_POST['level'];
         $mysqli->close();
 
 
-    ?>
+?>
 
 
 
